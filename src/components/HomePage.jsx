@@ -37,7 +37,9 @@ const HomePage = () => {
 
     const handleResetLocalStorage = () => {
         localStorage.removeItem(localStorageKey);
+        localStorage.removeItem(localStorageCount);
         setPlayers([]);
+        setCount(0);
     };
 
     const handleEditPlayer = (index) => {
