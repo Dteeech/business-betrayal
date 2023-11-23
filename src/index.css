@@ -6,6 +6,9 @@
   font-style: normal;
 }
 
+
+  
+
 @font-face {
   font-family: 'FilsonProMedium';
   src: local('FilsonProMedium'), url('../public/fonts/FilsonProMedium-Medium.woff') format('woff');
@@ -45,11 +48,13 @@ a:hover {
 
 body {
   margin: 0;
+  overflow-x: hidden;
   display: flex;
   place-items: center;
-  min-width: 320px;
+   min-width: 320px;
   min-height: 100vh;
-  background-color: #131237; /* Ajout de la couleur de fond pour le corps du site */
+  background-color: #131237; 
+  
 }
 
 

@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavBar from './components/Nav';
 import HomePage from './components/HomePage';
-import Rules from './components/Rules';
+import RulesAndRoles from './components/RulesAndRoles';
 
 
 
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path='/rules' element={<Rules />} />
+        <Route path='/rulesroles' element={<RulesAndRoles />} />
         <Route path='/' element={<HomePage />} />
       </Routes>
 

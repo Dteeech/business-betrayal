@@ -20,7 +20,7 @@ const NavBar = () => {
                 </div>
                 <ul className={`nav-list ${isMenuOpen ? 'open' : 'closed'}`}>
                     <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/rules'>Rules</Link></li>
+                    <li><Link to='/rulesroles'>Rules</Link></li>
                     {/* Ajoutez d'autres liens si nécessaire */}
                 </ul>
             </nav>
