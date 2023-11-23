@@ -1,0 +1,54 @@
+.difficulty-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.difficulty-title {
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+
+.difficulty-container_buttons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.difficulty-btn {
+    background-color: #131237;
+    width: 68.34px;
+    height: 36px;
+    top: 400px;
+    left: 688px;   
+    margin:10px;
+    border-radius: 10px;
+    border-color: #131237;
+}
+#difficulty-btn_pink button:hover {
+    background-color: #FF50C0;
+}
+#difficulty-btn_pink {
+    background: url('./assets/Rectanglerose.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+}
+#difficulty-btn_green button:hover {
+    background-color: #00F5D4;
+}
+#difficulty-btn_green {
+    background: url('./assets/RectangleBleu.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+}
+#difficulty-btn_red button:hover {
+    background-color: #E73D38;
+}
+#difficulty-btn_red {
+    background: url('./assets/RectangleRouge.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: auto;
+}

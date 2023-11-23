@@ -1,0 +1,56 @@
+/* index.css */
+@font-face {
+  font-family: 'FilsonProBlack';
+  src: local('FilsonProBlack'), url('../public/fonts/FilsonProBlack-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FilsonProMedium';
+  src: local('FilsonProMedium'), url('../public/fonts/FilsonProMedium-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FilsonProLight';
+  src: local('FilsonProLight'), url('../public/fonts/FilsonProLight-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #131237;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #131237; /* Ajout de la couleur de fond pour le corps du site */
+}
+
+
+/* Autres styles existants restent inchangés */
