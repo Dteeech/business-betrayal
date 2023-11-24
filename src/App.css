@@ -62,12 +62,7 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-.playerItem {
-  background: url('./assets/card-bg.png');
-  border-radius: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .ValidatePlayerbtn, .UpdatePlayerbtn {
   background-color: white;
   color: #9400FF;
@@ -163,14 +158,20 @@
   max-width: 100%; /* Ajuster la largeur du bouton */
 }
 .playerItem {
+  background: url('./assets/card-bg.png');
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   font-size: larger;
   flex-direction: column;
-  border: 1px solid white;
+  border: 4px solid #131237;
   background-color: #9400FF;
   margin: 10px;
   align-items: center;
-  min-height: 200px;
+  min-height: 270px;
+  height: auto;
   width:200px;
 }
 .playerName {
