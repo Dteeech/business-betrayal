@@ -71,17 +71,17 @@ const HomePage = () => {
     return (
         <>
             <h1>Business Betrayal</h1>
-            <ChooseDifficulty />
             <div className="card">
-                <button onClick={handleCountRounds}>
-                    Nombre de tours {count}
-                </button>
                 <h2>Welcome to our app.</h2>
                 <p>
                     Our addon aims to optimize the role of the game master by automating certain tasks and
                 </p>
                 <p>providing a central platform to manage the game's progression.</p>
+                <button className='learn-more' onClick={handleCountRounds}>
+                    Nombre de tours {count}
+                </button>
             </div>
+            <ChooseDifficulty />
             <PlayerInput onAddPlayer={handleAddPlayer} />
             <h2>Liste des Joueurs :</h2>
             <ul className="playersList">
